@@ -40,4 +40,59 @@ A simple Java-based social media application that allows users to register, post
 - `exit` - Exit the application.
 
 ## Example
+Welcome to the Social Media Application!
+
+Please enter a command (type 'exit' to quit):
+register 1 suyog
+suyog Registered!
+
+Please enter a command (type 'exit' to quit): 
+post 1 "Im working at xyz company"
+Upload Successful with post id: 1
+
+Please enter a command (type 'exit' to quit):
+register mahesh
+Usage: register <userId> <username>
+
+Please enter a command (type 'exit' to quit):
+register Mahesh 2
+Invalid user ID format.
+
+Please enter a command (type 'exit' to quit):
+register 2 Mahesh
+Mahesh Registered!
+
+Please enter a command (type 'exit' to quit):
+post 2 "Im working at roctstar studio"
+Upload Successful with post id: 2
+
+Please enter a command (type 'exit' to quit):
+follow 1 2
+Followed Mahesh!
+
+Please enter a command (type 'exit' to quit):
+feed 1
+User: 2
+Post: post 2 "Im working at roctstar studio"
+Timestamp: 2025-01-21T21:51:29.764898300
+
+User: 1
+Post: post 1 "Im working at xyz company"
+Timestamp: 2025-01-21T21:49:54.940756500
+
+
+Please enter a command (type 'exit' to quit):
+feed 2
+User: 2
+Post: post 2 "Im working at roctstar studio"
+Timestamp: 2025-01-21T21:51:29.764898300
+
+User: 1
+Post: post 1 "Im working at xyz company"
+Timestamp: 2025-01-21T21:49:54.940756500
+
+
+Please enter a command (type 'exit' to quit):
+exit
+Exiting Social Media Application.
 
